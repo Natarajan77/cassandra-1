@@ -64,7 +64,7 @@ objects:
               fieldRef:
                 apiVersion: v1
                 fieldPath: status.podIP
-          image: gcr.io/google-samples/cassandra:v12
+          image: natarajan77/cassandra:3
           imagePullPolicy: Always
           lifecycle:
             preStop:
